@@ -1,5 +1,12 @@
 # Enterprise Agentic AI Operations Platform
 
+## Overview
+
+A capstone lab that models an agentic operations flow from a customer UI through authentication, a supervisor, specialist agents for RAG, data, cloud and SRE work, MCP tools, a human approval gate and an audit trail. Execution stays false: the agent run endpoint routes and records work but does not carry it out. A React front end, Docker Compose setup and a `/v1` ops API for workspaces, tenant isolation and job approval sit around the agent code.
+
+- **Built with:** Python, FastAPI, React, TypeScript, MCP, pytest, Docker, GitHub Actions
+- **Scope:** Laptop lab with no hosted model; cluster apply stays false until a human approves.
+
 <!-- project-guide:start -->
 ## Project guide
 
